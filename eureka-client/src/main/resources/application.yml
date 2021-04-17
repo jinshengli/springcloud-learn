@@ -1,9 +1,13 @@
 server:
-  port: 8762
+  port: 8101
 spring:
   application:
-    name: euraka-client
+    name: eureka-client
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8001/eureka/ #配置注册中心地址
+    fetch-registry: true #获取注册实例列表
+    register-with-eureka: true #注册到Eureka的注册中心
+
+
