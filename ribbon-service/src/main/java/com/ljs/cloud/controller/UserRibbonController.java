@@ -1,8 +1,8 @@
 package com.ljs.cloud.controller;
 
 
-import com.ljs.cloud.domain.CommonResult;
-import com.ljs.cloud.domain.User;
+import com.ljs.domain.CommonResult;
+import com.ljs.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
